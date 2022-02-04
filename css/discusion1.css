@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#contenedor{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+#contenedor h1{
+    color: white;
+    font-size: 3em;
+}
+article{
+    border: 2px solid #fff;
+    padding: 5%;
+    width: 50%;
+    margin: 2%;
+    font-size: 20px;
+}
